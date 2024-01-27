@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50vw;
+  background-color: #323f4b;
+  background-size: cover;
+}
+
+.heading {
+  color: #f8fafc;
+  align-self: flex-start;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}

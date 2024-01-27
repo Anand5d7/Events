@@ -1,0 +1,99 @@
+/* Write your CSS here */
+
+.status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  width: 25vw;
+  padding-left: 50px;
+}
+
+.no-active {
+  color: #64748b;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-image {
+  height: 250px;
+  width: 250px;
+}
+
+.register-para {
+  color: #475569;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+}
+
+.register-button {
+  background-color: #0967d2;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.registered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registered-image {
+  height: 70px;
+  width: 70px;
+}
+
+.registered-para {
+  color: #323f4b;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.registration-closed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.closed-image {
+  height: 200px;
+  width: 200px;
+}
+
+.closed-para {
+  color: #323f4b;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Roboto';
+}
